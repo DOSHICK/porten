@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="stylesheet" href="./css/index.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Porten</title>
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="header__top-wrapper">
+      <div class="header__top container">
+        <div class="header__info">
+          <div class="header__info-block header__phone">
+            <img src="./img/icon/phone.svg" alt="">
+            <a href="tel:88121234567">8 (812) 123-45-67</a>
+          </div>
+          <div class="header__info-block">
+            Работаем 7 дней в неделю
+          </div>
+          <div class="header__info-block">
+            9:00 — 18:00
+          </div>
+        </div>
+        <div class="header__login">
+          <button class="header__login-btn"><img src="./img/icon/enter.svg" alt="">Войти / Регистрация</button>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom-wrapper">
+      <div class="header__bottom container">
+        <a href="#" class="header__logo-link">Porten</a>
+
+        <nav class="header__nav">
+          <button class="header__burger-btn">
+            <span></span>
+          </button>
+
+          <ul class="header__nav-list">
+            <li class="header__nav-item current"><a href="#">Понравилось</a></li>
+            <li class="header__nav-item"><a href="#">Личный кабинет</a></li>
+            <li class="header__nav-item"><a href="#">Настройки</a></li>
+          </ul>
+          <div class="header__manage">
+            <a href="#" class="header__manage-item"><img src="./img/icon/cart.svg" alt=""></a>
+            <a href="#" class="header__manage-item"><img src="./img/icon/search.svg" alt=""></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script src="./js/burger.js"></script>
 </body>
+
 </html>
