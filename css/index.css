@@ -252,6 +252,8 @@ body {
   position: absolute;
   background: #ffffff;
   border-radius: 5px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .header .header__bottom-wrapper .header__bottom .header__nav .header__burger-btn span::before {
@@ -330,7 +332,7 @@ body {
     background: #0f0f0f;
     width: 300px;
     right: 0px;
-    top: 103px;
+    top: 104px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
