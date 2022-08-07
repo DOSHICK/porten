@@ -1,0 +1,31 @@
+.novelties {
+  background: #000000;
+  padding: 120px 0px 110px 0px;
+  .novelties__list {
+    margin-top: 81px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & {
+      @import "../components/card-item";
+      .card {
+        margin: 0px 0px 40px 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 483px) {
+  .novelties {
+    padding: 60px 0px 60px 0px;
+    .novelties__list {
+      margin-top: 81px;
+      justify-content: center;
+      & {
+        .card {
+        }
+      }
+    }
+  }
+}

@@ -1,11 +1,57 @@
-body{
-  @include FontText ;
+body {
+  @include FontText;
   font-size: 14px;
 }
 
-.container{
+.container {
   max-width: 1150px;
   padding-right: 20px;
   padding-left: 20px;
   margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  text-align: center;
+  padding: 12px 28px;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2 {
+  z-index: 1;
+  @include FontTitle;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  padding: 0px 0px 40px 0px;
+  position: relative;
+  &::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 120px;
+    height: 1px;
+    background: #ffffff;
+  }
+}
+
+h3 {
+  @include FontTitle ;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
 }

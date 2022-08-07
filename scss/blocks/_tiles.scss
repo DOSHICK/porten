@@ -1,0 +1,582 @@
+.tiles {
+  background: #000000;
+  .tiles__block {
+  }
+  .tiles__block_1 {
+    display: grid;
+    grid-template-columns: 13fr 11fr;
+  }
+  .tiles__block_2 {
+    display: grid;
+    grid-template-columns: 11fr 13fr;
+  }
+  .season {
+    padding: 93px 80px 93px 80px;
+    .season__title {
+      padding: 0px 0px 50px 0px;
+    }
+    .season__list {
+      margin: 50px 0px 0px 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      @import "../components/card-item";
+
+      .card {
+        &.loaded {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .new-collection {
+    position: relative;
+    .new-collection_bg {
+      width: 100%;
+      height: 100%;
+    }
+    .new-collection__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      bottom: 100px;
+      left: 50%;
+      transform: translate(-50%);
+      .new-collection__title {
+        padding: 0px 0px 30px 0px;
+      }
+      .new-collection__link {
+        margin: 30px 0px 0px 0px;
+      }
+    }
+  }
+
+  .some-img {
+    width: 100%;
+    height: 100%;
+  }
+  .old-colection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    .old-colection__title {
+    }
+    .old-colection__text {
+      margin: 40px 0px 61px 0px;
+      width: 471px;
+      text-align: center;
+    }
+    .old-colection__link {
+    }
+  }
+}
+
+@media (max-width: 1800px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding: 60px 80px 60px 80px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          .card__link {
+            .card__img-wrapper {
+              img {
+                width: 180px;
+                height: 180px;
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 1550px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding: 60px 60px 60px 60px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+    .tiles__block_2 {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(auto);
+    }
+    .season {
+      padding-top: 150px;
+      padding-bottom: 150px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          &.loaded {
+            display: list-item;
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      grid-row: 1;
+      padding: 150px 60px 150px 60px;
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          &.loaded {
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          &.loaded {
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          &.loaded {
+            display: none;
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      .season__title {
+      }
+      .season__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        .card {
+          align-self: center;
+          justify-self: center;
+          &.loaded {
+            display: list-item;
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 610px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      .season__title {
+      }
+      .season__list {
+        grid-template-columns: 1fr;
+        .card {
+          &.loaded {
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      .old-colection__title {
+      }
+      .old-colection__text {
+        width: unset;
+        max-width: 471px;
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .tiles {
+    .tiles__block {
+    }
+    .tiles__block_1 {
+    }
+    .tiles__block_2 {
+    }
+    .season {
+      padding: 60px 20px 60px 20px;
+      .season__title {
+      }
+      .season__list {
+        .card {
+          &.loaded {
+          }
+          .card__link {
+            .card__img-wrapper {
+              img {
+              }
+            }
+            .card__name {
+            }
+            .card__price {
+            }
+          }
+        }
+      }
+    }
+
+    .new-collection {
+      .new-collection_bg {
+      }
+      .new-collection__block {
+        .new-collection__title {
+        }
+        .new-collection__link {
+        }
+      }
+    }
+
+    .some-img {
+    }
+    .old-colection {
+      padding: 60px 20px 60px 20px;
+      .old-colection__title {
+      }
+      .old-colection__text {
+      }
+      .old-colection__link {
+      }
+    }
+  }
+}

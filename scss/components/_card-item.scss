@@ -1,0 +1,42 @@
+.card {
+  .card__link {
+    .card__img-wrapper {
+      padding: 54px 22px 54px 22px;
+      background: #191b1c;
+      img {
+        width: 215px;
+        height: 214px;
+      }
+    }
+    .card__name {
+      @include FontTitle;
+      margin: 25px 0px 10px 0px;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .card__price {
+      @include FontTitle;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+@media (max-width: 1800px) {
+  .card {
+    .card__link {
+      .card__img-wrapper {
+        img {
+          width: 180px;
+          height: 180px;
+        }
+      }
+      .card__name {
+      }
+      .card__price {
+      }
+    }
+  }
+}

@@ -204,6 +204,7 @@
         }
 
         .header__nav {
+          z-index: 1;
           padding: 15px 0px 15px 0px;
           flex-direction: row-reverse;
           align-items: center;
