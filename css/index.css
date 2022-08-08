@@ -76,6 +76,11 @@ button {
   outline: none;
 }
 
+@font-face {
+  font-family: "Post No Bills Jaffna SemiBold";
+  src: url("../fonts/PostNoBillsJaffna/PostNoBillsJaffna-SemiBold.ttf") format("ttf");
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
