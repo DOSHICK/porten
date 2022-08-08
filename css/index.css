@@ -264,7 +264,7 @@ h3 {
 }
 
 .header .header__bottom-wrapper .header__bottom .header__logo-link {
-  font-family: "Post No Bills Jaffna SemiBold", sans-serif;
+  font-family: "Post No Bills Jaffna SemiBold";
   font-size: 36px;
   line-height: 54px;
   color: #ffffff;
@@ -671,7 +671,7 @@ h3 {
 }
 
 .offer .offer__container .offer__hero .offer__hero-title {
-  font-family: "Post No Bills Jaffna SemiBold", sans-serif;
+  font-family: "Post No Bills Jaffna SemiBold";
   text-transform: uppercase;
   font-size: 64px;
   line-height: 96px;
