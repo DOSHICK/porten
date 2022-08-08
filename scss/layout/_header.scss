@@ -50,6 +50,11 @@
           img {
             margin: 0px 12px 0px 0px;
           }
+          cursor: pointer;
+          transition: all 0.3s ease 0s;
+          &:hover {
+            color: #a8a8a8;
+          }
         }
       }
     }
@@ -150,6 +155,11 @@
               padding: 31px 20px 31px 20px;
               color: #969696;
               text-transform: uppercase;
+              cursor: pointer;
+              transition: all 0.3s ease 0s;
+              &:hover {
+                background: #252525;
+              }
             }
             &.current {
               a {
@@ -162,6 +172,15 @@
         .header__manage {
           .header__manage-item {
             margin: 0px 0px 0px 40px;
+            cursor: pointer;
+            img {
+              transition: all 0.1s ease-in-out 0s;
+            }
+            &:hover {
+              img {
+                transform: scale(1.2);
+              }
+            }
           }
         }
       }

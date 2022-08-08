@@ -102,6 +102,15 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  color: #000000;
+  background: #cacaca;
+  border-color: #000000;
 }
 
 h2 {
@@ -217,10 +226,17 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .header .header__top-wrapper .header__top .header__login .header__login-btn img {
   margin: 0px 12px 0px 0px;
+}
+
+.header .header__top-wrapper .header__top .header__login .header__login-btn:hover {
+  color: #a8a8a8;
 }
 
 .header .header__bottom-wrapper {
@@ -345,6 +361,13 @@ h3 {
   padding: 31px 20px 31px 20px;
   color: #969696;
   text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header .header__bottom-wrapper .header__bottom .header__nav .header__nav-list .header__nav-item a:hover {
+  background: #252525;
 }
 
 .header .header__bottom-wrapper .header__bottom .header__nav .header__nav-list .header__nav-item.current a {
@@ -354,6 +377,17 @@ h3 {
 
 .header .header__bottom-wrapper .header__bottom .header__nav .header__manage .header__manage-item {
   margin: 0px 0px 0px 40px;
+  cursor: pointer;
+}
+
+.header .header__bottom-wrapper .header__bottom .header__nav .header__manage .header__manage-item img {
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.header .header__bottom-wrapper .header__bottom .header__nav .header__manage .header__manage-item:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 700px) {
@@ -454,6 +488,13 @@ h3 {
   background: #0f0f0f;
   color: #d0d0d0;
   margin: 0px 0px 20px 0px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.footer .footer__top .footer__top-wrapper .footer__top-block .footer__links .footer__link:hover {
+  background: #242424;
 }
 
 .footer .footer__top .footer__top-wrapper .footer__top-block .footer__form {
@@ -508,6 +549,10 @@ h3 {
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.footer .footer__top .footer__top-wrapper .footer__top-block .footer__form button:hover {
+  background: #242424;
 }
 
 .footer .footer__bottom {
@@ -707,6 +752,12 @@ h3 {
           justify-content: space-between;
 }
 
+.tiles .season .season__list .card {
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
 .tiles .season .season__list .card .card__link .card__img-wrapper {
   padding: 54px 22px 54px 22px;
   background: #191b1c;
@@ -715,6 +766,8 @@ h3 {
 .tiles .season .season__list .card .card__link .card__img-wrapper img {
   width: 215px;
   height: 214px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .tiles .season .season__list .card .card__link .card__name {
@@ -730,6 +783,11 @@ h3 {
   color: #ffffff;
   font-size: 16px;
   line-height: 19px;
+}
+
+.tiles .season .season__list .card:hover .card__link .card__img-wrapper img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 1800px) {
@@ -938,6 +996,12 @@ h3 {
           justify-content: space-between;
 }
 
+.novelties .novelties__list .card {
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
 .novelties .novelties__list .card .card__link .card__img-wrapper {
   padding: 54px 22px 54px 22px;
   background: #191b1c;
@@ -946,6 +1010,8 @@ h3 {
 .novelties .novelties__list .card .card__link .card__img-wrapper img {
   width: 215px;
   height: 214px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .novelties .novelties__list .card .card__link .card__name {
@@ -961,6 +1027,11 @@ h3 {
   color: #ffffff;
   font-size: 16px;
   line-height: 19px;
+}
+
+.novelties .novelties__list .card:hover .card__link .card__img-wrapper img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 1800px) {
